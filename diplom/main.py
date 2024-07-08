@@ -6,19 +6,19 @@ import matplotlib.pyplot as plt
 # задание начальных параметров
 
 pi = np.pi
-k = 1
-RR = 100
-hh = 1
-EU = 21000
-nu = 0.3
+k = 1                                               # коэффициент члена триганометрического ряда
+RR = 100                                            # радиус кривизны сферической оболочки в см
+hh = 1                                              # толщина оболочки
+EU = 21000                                          # модуль упругости
+nu = 0.3                                            # коэффициент Пуассона
 
-phi0 = pi
-phi1 = frac.Fraction(80, 180) * pi
-delta = frac.Fraction(10, 180) * pi
+phi0 = pi                                           # задание угла для определения длины оболочки
+phi1 = frac.Fraction(80, 180) * pi                  #
+delta = frac.Fraction(10, 180) * pi                 #
 
-q = 3
-AS = phi0 - phi1 - delta
-s0 = AS * RR
+q = 3                                               # значение нагрузки в кН / см2
+AS = phi0 - phi1 - delta                            # длина оболочки в градусах
+s0 = AS * RR                                        # длина оболочки в см 
 
 x = np.linspace(0, 1, 80000)
 
