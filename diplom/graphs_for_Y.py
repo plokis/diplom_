@@ -1,13 +1,3 @@
-# import sympy as smp
-#
-# x, n = smp.symbols('x n', real=True)
-# f = smp.Piecewise((0, x < 1), (0, x > 1.3), (6, True))*smp.sin(smp.pi*n*x)
-#
-# print(smp.integrate(f, x))
-#
-# import numpy
-# print(numpy.cos(1)**2, (numpy.cos(1))**2)
-
 import matplotlib.pyplot as plt
 import numpy as np
 
