@@ -2,6 +2,9 @@ import numpy as np
 from prettytable import PrettyTable
 import xlsxwriter as xl
 
+# Сравнение результатов для разных закреплений
+# shsh - шарнир-шарнир, zz - заделка-заделка
+
 MRh_shsh_o = []
 MRh_zz_o = []
 urRh_shsh_o = []
